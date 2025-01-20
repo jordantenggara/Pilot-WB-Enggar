@@ -1,0 +1,71 @@
+body.dark-theme{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+body.light-theme{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#theme{
+    position : fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #b08d57;
+    color :white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+}
+
+#skills{
+    border-top: 3px solid #b08d57;
+}
+
+h1, h2{
+    color: #b08d57;
+    margin-bottom: 10px;
+}
+
+header, section, footer{
+    margin: 20px;
+    padding: 10px;
+}
+
+header{
+    text-align: center;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    border-top: 3px double #b08d57;
+}
+
+#Top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #b08d57;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
+}
